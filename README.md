@@ -1,5 +1,7 @@
 Atmega32 Drivers Library
 
+
+
 This repository contains a collection of drivers for various AVR microcontroller peripherals, including:
 
     Digital Input/Output (DIO)
@@ -24,12 +26,6 @@ Requirements
 
 To use this library, you will need:
 
-    A computer with a C compiler, such as GCC
-    A microcontroller that supports the AVR instruction set or any Emulation software that supports AVR microcontrollers.
-    A way to transfer the compiled code to your microcontroller, such as a programmer
-
-Using the Library
-
     To use the library in your project, you will need to include the appropriate header files in your code and link the compiled object files.
 
     For example, to use the DIO driver, you would include the following line in your code:
@@ -40,6 +36,9 @@ Using the Library
 
     kindly notice It is imperative that you edit the LCD\Keypad configuration files before using the software. Failure to do so may result in unexpected behavior and incorrect results.
    
+
+
+
 -Each driver has its own header file and implementation file, with detailed documentation included in the header file.
 
 -This repository includes additional documents that you may find helpful, and I will be continuously updating it.
