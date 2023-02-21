@@ -16,10 +16,9 @@ This repository contains a collection of drivers for various AVR microcontroller
 
 Requirements
 
-    AVR microcontroller
     avr/io.h header file
     avr/delay.h header file
-    stdtypes.h and macros.h header files (included in the library)
+    std_types.h and std_macros.h header files (included in the library)
 
    
 
@@ -39,7 +38,7 @@ Using the Library
 
     You would then need to link the compiled DIO object file to your project.
 
-    kindly notice It is imperative that you edit the configuration files before using the software. Failure to do so may result in unexpected behavior and incorrect results.
+    kindly notice It is imperative that you edit the LCD\Keypad configuration files before using the software. Failure to do so may result in unexpected behavior and incorrect results.
    
 -Each driver has its own header file and implementation file, with detailed documentation included in the header file.
 
